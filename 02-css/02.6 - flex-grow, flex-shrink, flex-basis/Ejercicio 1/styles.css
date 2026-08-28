@@ -1,0 +1,53 @@
+/* Ejemplo 1*/
+.container {
+    display: flex;
+    width: 600px;
+}
+.box {
+    flex-basis: 100px;
+    height: 100px;
+}
+/**/
+
+/*
+Ejemplo 2
+.container {
+    display: flex;
+    width: 600px;
+}
+.box {
+    flex-grow: 1;
+}
+*/ 
+/*Ejemplo 3
+.container {
+    display: flex;
+    width: 600px;
+}
+.box-a {
+    flex-grow: 2;
+}
+.box-b {
+    flex-grow: 1;
+}
+.box-c {
+    flex-grow: 1;
+}
+*/
+/*Ejemplo 4
+.container {
+    width: 200px;
+}
+.box {
+    flex-shrink: 0;
+}
+.box-a {
+    flex-grow: 2;
+}
+.box-b {
+    flex-grow: 1;
+}
+.box-c {
+    flex-grow: 1;
+}
+*/
