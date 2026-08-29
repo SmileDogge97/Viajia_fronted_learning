@@ -1,0 +1,68 @@
+/*11. Nuestro primer layout responsive
+.events-section {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.events {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+.event-card {
+    min-height: 200px;
+    border: 1px solid;
+    padding: 24px;
+}*/
+/*12. Media Queries
+.events-section {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+@media (max-width: 768px) {
+    .events {
+        grid-template-columns: 1fr;
+    }
+}
+.event-card {
+    min-height: 200px;
+    border: 1px solid;
+    padding: 24px;
+}*/
+/*13. Mobile First
+.events {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+@media (min-width: 768px) {
+    .events {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+    }
+}
+@media (min-width: 1024px) {
+    .events {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}*/
+/*Ejercicio*/
+.events {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+@media (min-width: 768px) {
+    .events {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+    }
+}
+@media (min-width: 1024px) {
+    .events {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
