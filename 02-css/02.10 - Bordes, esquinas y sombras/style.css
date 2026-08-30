@@ -1,0 +1,20 @@
+:root {
+    --primary: #800080;
+    --on-primary: #804680;
+}
+.save-event-button {
+    border-radius: 10px;
+    padding: 10px;
+    transition: --primary 0.5s ease;
+    background-color: var(--primary);
+
+}
+.save-event-button:hover {
+    background-color: var(--on-primary);
+}
+.save-event-button:active {
+    transform: scale(0.9)
+}
+.save-event-button:focus {
+    outline: 1px solid;
+}
