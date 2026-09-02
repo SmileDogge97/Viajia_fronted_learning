@@ -1,0 +1,18 @@
+.events {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .events {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+        width: 100%;
+    }
+}
+.event-card {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
