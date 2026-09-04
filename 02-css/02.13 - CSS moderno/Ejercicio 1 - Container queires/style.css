@@ -1,0 +1,13 @@
+.events-container {
+    container-type: inline-size;
+}
+
+.event-card {
+    display: block;
+}
+
+@container (min-width: 500px){
+    .event-card {
+        display: flex;
+    }
+}
